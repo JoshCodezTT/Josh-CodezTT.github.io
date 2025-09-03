@@ -1,0 +1,157 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  margin: 0;
+  padding: 0;
+  color: #e0e7ef;
+}
+
+header {
+  text-align: center;
+  padding: 40px 0 20px 0;
+  background: #232526;
+  color: #fff;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  box-shadow: 0 4px 16px rgba(35,37,38,0.15);
+}
+
+header img {
+  margin-bottom: 16px;
+  border: 4px solid #fff;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+}
+
+nav {
+  margin-top: 18px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 18px;
+  font-weight: 500;
+  font-size: 1.1em;
+  transition: color 0.2s;
+}
+nav a:hover {
+  color: #bfc1c2;
+}
+
+section {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #2c2f34;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px rgba(35,37,38,0.10);
+  padding: 32px 28px;
+  text-align: center;
+  color: #e0e7ef;
+}
+
+section h2 {
+  color: #bfc1c2;
+  margin-bottom: 18px;
+}
+
+#skills ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#education ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: left;
+}
+
+#skills li {
+  position: static;
+  background: none;
+  color: #e0e7ef;
+  margin: 6px 0;
+  padding: 7px 0;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+}
+
+#skills li .right-bullet {
+  display: none;
+}
+
+#education li {
+  background: #414345;
+  color: #e0e7ef;
+  margin: 6px 0;
+  padding: 7px 16px;
+  border-radius: 8px;
+  display: block;
+}
+
+#projects ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#projects li {
+  background: #414345;
+  color: #e0e7ef;
+  margin: 6px 0;
+  padding: 7px 16px;
+  border-radius: 8px;
+  display: block;
+}
+
+#projects li::before {
+  content: none;
+}
+
+.education-item {
+  margin-bottom: 24px;
+}
+
+footer {
+  text-align: center;
+  padding: 18px 0;
+  background: #232526;
+  color: #fff;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-top: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#contact a {
+  color: #bfc1c2;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+#projects a, #skills a {
+  color: inherit;
+}
+
+#projects a:visited, #skills a:visited {
+  color: inherit;
+}
+
+#projects a:hover, #skills a:hover {
+  text-decoration: underline;
+}
